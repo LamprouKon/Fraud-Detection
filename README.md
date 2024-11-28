@@ -17,4 +17,5 @@ K-Means Clustering: Grouping data to identify potential anomalies.
 Utilizing metrics such as accuracy, recall to assess model performance.
 
 Conclusions 🏁
+
 The project demonstrates the effectiveness of unsupervised learning algorithms in detecting credit card fraud, providing a reliable approach to identifying suspicious transactions without the need for labeled data.
