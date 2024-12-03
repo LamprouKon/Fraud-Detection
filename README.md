@@ -1,21 +1,32 @@
-The "Fraud Detection Using Unsupervised Learning" 🕵️‍♂️💳 project focuses on detecting credit card fraud transactions using unsupervised learning algorithms. 
-Utilizing the "Credit Card Fraud Detection" dataset from Kaggle, which includes 284,807 transactions with 30 features, the project follows these steps:
+Fraud Detection Using Logistic Regression 🕵️‍♀️💳
+This project focuses on detecting fraudulent credit card transactions using a supervised machine learning approach. Specifically, the Logistic Regression algorithm is implemented to classify transactions as fraudulent or non-fraudulent.
 
-Project Steps 🛠️
--Data Exploration and Preprocessing 🔍🗃️
+📊 Dataset
+The dataset used is highly imbalanced, as fraudulent transactions represent a small fraction of the total. Preprocessing steps were applied to handle the class imbalance and prepare the data for training.
 
-Analyzing the distribution of data and its features.
-Handling class imbalance, as fraud cases constitute a small percentage of the total.
-Normalizing numerical features to enhance algorithm performance.
+🔍 Methodology
 
--Application of Unsupervised Learning Algorithms 🤖
+1) Data Preprocessing:
 
-K-Means Clustering: Grouping data to identify potential anomalies.
+🧹 Feature scaling and normalization were applied to ensure the model performs optimally.
 
--Evaluation of Results 📝📊
+⚖️ Handling class imbalance through techniques such as oversampling (SMOTE) or adjusting class weights in the logistic regression model.
 
-Utilizing metrics such as accuracy, recall to assess model performance.
+2) Model Implementation:
 
-Conclusions 🏁
+🤖 Logistic Regression was chosen due to its interpretability and efficiency for binary classification tasks.
+📚 The model was trained and validated on the dataset, with metrics such as accuracy, precision, recall, and F1-score used for evaluation.
 
-The project demonstrates the effectiveness of unsupervised learning algorithms in detecting credit card fraud, providing a reliable approach to identifying suspicious transactions without the need for labeled data.
+3)Evaluation:
+
+📈 The model's performance was evaluated using a confusion matrix and various metrics, focusing on precision and recall due to the imbalanced nature of the dataset.
+
+🏆 Results
+
+The Logistic Regression model achieved significant results in identifying fraudulent transactions, with an emphasis on minimizing false negatives (frauds classified as non-fraudulent).
+
+Metrics such as recall and F1-score highlight the model's effectiveness in this context.
+
+📝 Conclusion
+
+This project demonstrates the application of Logistic Regression in fraud detection scenarios, highlighting its simplicity and effectiveness. Future work could explore additional algorithms, ensemble methods, or more advanced preprocessing techniques to further enhance accuracy.
